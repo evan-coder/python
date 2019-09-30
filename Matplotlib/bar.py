@@ -5,9 +5,11 @@
 from matplotlib import pyplot as plt
 
 x = [5, 8, 10]
+names = ['Lucy', 'Andi', 'Aim']
 y = [12, 16, 6]
 
 x2 = [6, 9, 11]
+names2 = ['Jim', 'Evan', 'Bob']
 y2 = [6, 15, 7]
 
 plt.bar(x, y, align="center")
@@ -15,4 +17,5 @@ plt.bar(x2, y2, color="g", align="center")
 plt.title("Bar graph")
 plt.xlabel("x axis")
 plt.ylabel("y axis")
+
 plt.show()
